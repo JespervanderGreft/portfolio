@@ -41,6 +41,21 @@ blockquote, q {
     quotes: none;
 }
 
+.image.py-2 > img {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.image.logo > img {
+    padding: 5em;
+    object-fit: contain !important;
+}
+.image.logo.raadschelders > img {
+    padding: .5em;
+}
+
     blockquote:before, blockquote:after, q:before, q:after {
         content: '';
         content: none;
@@ -5903,10 +5918,6 @@ input, select, textarea {
             -o-object-position: right;
             object-position: right;
         }
-
-    .spotlight .image {
-        background-color: rgba(0, 0, 0, 0.125);
-    }
 
     .spotlight.invert .image {
         background-color: rgba(255, 255, 255, 0.125);
