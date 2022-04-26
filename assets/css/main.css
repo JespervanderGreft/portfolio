@@ -2334,7 +2334,8 @@ input, select, textarea {
         input[type="button"].wide,
         button.wide,
         .button.wide {
-            min-width: 14em;
+            max-width: 17em;
+            align-self: center;
         }
 
         input[type="submit"].disabled, input[type="submit"]:disabled,
